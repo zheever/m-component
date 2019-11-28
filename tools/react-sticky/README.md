@@ -117,7 +117,7 @@ Sticky state will be triggered when the top of the element is `topOffset` pixels
 
 app.js
 
-```js
+```jsx
 <StickyContainer>
   ...
   <Sticky topOffset={80}>
@@ -135,7 +135,7 @@ Sticky state will be triggered when the bottom of the element is `bottomOffset` 
 
 app.js
 
-```js
+```jsx
 <StickyContainer>
   ...
   <Sticky bottomOffset={80}>
@@ -155,7 +155,7 @@ and back.
 
 app.js
 
-```js
+```jsx
 <StickyContainer>
   ...
   <Sticky disableCompensation>
@@ -172,7 +172,7 @@ the mobile experience, and can usually be avoided by improving the structure of 
 
 app.js
 
-```js
+```jsx
 <StickyContainer>
   ...
   <Sticky disableHardwareAcceleration>
