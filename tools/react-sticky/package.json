@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "compile": "babel src --loose --out-dir lib",
+    "compile": "babel src --out-dir lib",
     "build": "babel src --out-dir lib",
     "demos:start": "webpack-dev-server --watch",
     "demos:build": "cross-env NODE_ENV=production webpack",
@@ -56,5 +56,8 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
