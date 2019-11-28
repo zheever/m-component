@@ -364,7 +364,8 @@
     // }
      {
        "packageName": "react-sticky",
-       "projectFolder": "tools/react-sticky"
+       "projectFolder": "tools/react-sticky",
+       "shouldPublish": true
      }
   ]
 }

@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5880fd8e-ca78-4540-bfe7-dae584124e92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/lib/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/lib/Sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/src/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/src/Sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/test/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/test/spec/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/test/spec/Sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/react-sticky/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/rush/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/rush/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/rush/pnpmfile.js" beforeDir="false" />
+    <list default="true" id="5880fd8e-ca78-4540-bfe7-dae584124e92" name="Default Changelist" comment="add react-sticky">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rush.json" beforeDir="false" afterPath="$PROJECT_DIR$/rush.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/qr/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/qr/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,10 +25,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rush.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="240">
+              <caret line="366" column="36" selection-start-line="366" selection-start-column="31" selection-end-line="366" selection-end-column="36" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/react-sticky/react-sticky.build.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -66,27 +51,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/react-sticky/.travis.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/react-sticky/LICENSE">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/react-sticky/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/react-sticky/.rush/temp/package-deps_build.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -97,16 +95,6 @@
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/react-sticky/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/react-sticky/lib/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -123,9 +111,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rush.json" />
         <option value="$PROJECT_DIR$/common/config/rush/.npmrc" />
         <option value="$PROJECT_DIR$/tools/react-sticky/package.json" />
+        <option value="$PROJECT_DIR$/rush.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -174,19 +163,6 @@
             <path>
               <item name="zhe-m-component" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhe-m-component" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhe-m-component" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhe-m-component" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="rush" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhe-m-component" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhe-m-component" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +170,21 @@
               <item name="zhe-m-component" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="react-sticky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhe-m-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhe-m-component" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="react-sticky" type="462c0819:PsiDirectoryNode" />
+              <item name=".rush" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhe-m-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhe-m-component" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="react-sticky" type="462c0819:PsiDirectoryNode" />
+              <item name=".rush" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,12 +254,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574909477168</updated>
-      <workItem from="1574909478340" duration="3209000" />
+      <workItem from="1574909478340" duration="4130000" />
     </task>
+    <task id="LOCAL-00001" summary="add react-sticky">
+      <created>1574912919348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574912919348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3209000" />
+    <option name="totallyTimeSpent" value="4130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -279,11 +278,11 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,6 +294,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add react-sticky" />
+    <option name="LAST_COMMIT_MESSAGE" value="add react-sticky" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/config/rush/command-line.json">
@@ -331,11 +334,25 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/react-sticky/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/tools/react-sticky/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/react-sticky/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/common/config/rush/.npmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rush.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="366" column="36" selection-start-line="366" selection-start-column="31" selection-end-line="366" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/react-sticky/react-sticky.build.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/react-sticky/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -345,30 +362,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/react-sticky/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/tools/react-sticky/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rush.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/rush/.npmrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/react-sticky/.babelrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/react-sticky/.rush/temp/package-deps_build.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/react-sticky/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/react-sticky/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
         </state>
       </provider>
     </entry>
