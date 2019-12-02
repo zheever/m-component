@@ -1,0 +1,36 @@
+/* add css styles here (optional) */
+
+.card-rotate-wrapper {
+  width: 186px;
+  height: 621px;
+  position: relative;
+  perspective: 500px;
+}
+
+.card-rotate-item-front, .card-rotate-item-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  perspective: 1000px;
+  transition: all .5s;
+  box-shadow: rgba(50, 50, 50, 0.2) 0 0 15px;
+}
+
+.card-rotate-item-front {
+  z-index: 1;
+}
+
+.card-rotate-item-back {
+  transform: rotateY(-180deg);
+}
+
+.card-rotate-wrapper:hover .card-rotate-item-front {
+  transform: rotateY(-180deg);
+}
+
+.card-rotate-wrapper:hover .card-rotate-item-back {
+  transform: rotateY(-360deg);
+}

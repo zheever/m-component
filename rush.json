@@ -363,8 +363,8 @@
     //   "reviewCategory": "tools"
     // }
      {
-       "packageName": "react-sticky",
-       "projectFolder": "tools/react-sticky",
+       "packageName": "card-rotate-animatin",
+       "projectFolder": "tools/card-rotate-animation",
        "shouldPublish": true
      }
   ]
