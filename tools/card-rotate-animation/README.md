@@ -1,6 +1,6 @@
 # card-rotate-animatin
 
-> card rotate animation for react
+> card rotate animation for react  卡片选择react组件
 
 [![NPM](https://img.shields.io/npm/v/card-rotate-animatin.svg)](https://www.npmjs.com/package/card-rotate-animatin) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
